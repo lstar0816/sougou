@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>搜狗搜索引擎 - 上网从搜狗开始</title>
+</head>
+<body>
+    <div id="header">
+        <div id="head-left">
+            <a href="https://news.sogou.com/" class="head-left-style">新闻</a>
+            <span class="span-style">网页</span>
+            <a href="http://weixin.sogou.com/" class="head-left-style">微信</a>
+            <a href="http://zhihu.sogou.com/" class="head-left-style">知乎</a>
+            <a href="http://pic.sogou.com/" class="head-left-style">图片</a>
+            <a href="https://v.sogou.com/" class="head-left-style">视频</a>
+            <a href="http://mingyi.sogou.com/?fr=common_index_nav" class="head-left-style">明医</a>
+            <a href="http://english.sogou.com/?fr=pcweb_index_nav" class="head-left-style">英文</a>
+            <a href="https://wenwen.sogou.com/?ch=websearch" class="head-left-style">问问</a>
+            <a href="http://scholar.sogou.com/?fr=common_index_nav" class="head-left-style">学术</a>
+            <a href="http://pic.sogou.com/" class="head-left-style">更多</a>
+        </div>
+        <div id="head-right">
+            <div class="local-weather">
+                <span class="weather-city">广东 深圳</span>
+                <i>
+                    <img src="/html_learn_1/duoyun.jpg/"
+                    width="16" height="16" title="多云" alt="多云">
+                </i>
+                <span class="weather-city">23°</span>
+                <span class="weather-quality">优 42</span>
+            </div>
+            <span class="spilt-line"></span>
+            <div class="user-enter">
+                <a href="">显示卡片</a>
+                <a href=""> 换肤</a>
+                <a href="" class="set-dropdown">设置</a>
+                <p class="set-dropdown-content"> 事实上</p>
+                <span class="enter">登录</span>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="logo">
+            <img src="/html_learn_1/sougou.jpg/"
+            width="300" height="80">
+        </div>
+    </div>
+    <div class="search-box">
+        <input type="text" name="search-text" class="search-text">
+        <input type="submit" class="click-search" id="sub" value="" style="cursor:pointer">
+        <a href="" class="yuyin" title="语音搜索"></a>
+    </div>
+    <div class="footer">
+        <div class="erwm-box">
+            <span class="ewm"></span>
+            <p>搜狗搜索APP</p>
+            <p class="p2">搜你所想</p>
+        </div>
+        <div class="wz-info">
+            <a href="https://pinyin.sogou.com/" target="_blank">搜狗输入法</a>
+            <span class="line"></span>
+            <a href="https://ie.sogou.com/" target="_blank">浏览器</a>
+            <span class="line"></span>
+            <a href="https://123.sogou.com/" target="_blank">网页导航</a><br>
+            <a href="http://corp.sogou.com/" target="_blank">关于搜狗</a>
+            &nbsp;-&nbsp;
+            <a href="http://corp.sogou.com/" target="_blank" class="g">About Sogou</a>
+            &nbsp;-&nbsp;
+            <a href="http://fuwu.sogou.com/" target="_blank" class="g">企业推广</a>
+            &nbsp;-&nbsp;
+            <a href="http://www.sogou.com/docs/terms.htm?v=1" target="_blank" class="g">免责声明</a>
+            &nbsp;-&nbsp;
+            <a href="http://fankui.help.sogou.com/index.php/web/web/index/type/4" target="_blank" class="g">意见反馈及投诉</a>
+            &nbsp;-&nbsp;
+            <a href="http://corp.sogou.com/private.html" target="_blank" class="g">隐私政策</a><br>
+            <span class="g">©&nbsp;2004-2018&nbsp;Sogou.com&nbsp;/&nbsp;京网文&nbsp;(2016)&nbsp;6432-852号&nbsp;/&nbsp;(京)-经营性-2016-0019</span><bf>
+            <a href="http://www.miibeian.gov.cn/" target="_blank" class="g">京ICP证050897号</a>
+            <span class="g">/</span>
+            <a href="http://www.miibeian.gov.cn/" target="_blank" class="g">京ICP备11001839号-1</a>
+            <span class="g">/</span>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000025" target="_blank" class="g">京公网安备11000002000025号</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<style>
+#header{
+    line-height:  24px;
+    padding:11px 0px 11px 0px;
+    height: 24px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    mid-width: 1000px;
+    z-index: 2001;
+}
+
+#head-left{
+    float: left;
+}
+
+#head-left a:hover{
+    color:orange;
+}
+
+#head-right{
+    float: left;
+    position: absolute;
+    top: 10ps;
+    right: 5px;
+    font-size: 12px;
+}
+
+.head-left-style{
+    color:black;
+    font-size:13px;
+    text-decoration:none;
+    margin-left: 20px;
+    float: left;
+}
+
+.span-style{
+    color: #ff5a34;
+    font-size: 13px;
+    font-weight: 1000;
+    display: block;
+    margin-left:20px;
+    float: left;
+}
+
+.local-weather{
+    float: left;
+    position: relative;
+}
+
+.weather-city{
+    font-size: 12px;
+}
+
+.local-weather i{
+    margin: 0px;
+    position: relative;
+    top: 3px;
+}
+
+.weather-quality{
+    color: #61bd82;
+    font-weight: 700;
+}
+
+.spilt-line{
+    float: left;
+    width: 1px;
+    height: 14px;
+    overflow: hidden;
+    background: #e7e7e7;
+    margin: 5px 20px 0;
+    clear: none;
+    border: 0;
+}
+
+.user-enter{
+    float: left;
+}
+
+.user-enter a{
+    margin-right: 17px;
+    text-decoration:none;
+}
+
+.user-enter a:hover{
+    color:orange;
+}
+
+.set-dropdown{
+    position:relative;
+    display: inline-block;
+}
+
+.set-dropdown-content{
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: orange;
+}
+
+.enter{
+    display: inline-block;
+    height: 24px;
+    background: #fd6853;
+    color: #fff;
+    padding: 0 10px;
+    margin-right: 20px;
+}
+
+.content{
+    position:relative;
+    height: 249.81px;
+}
+
+.logo{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -180px;
+    text-align: center;
+}
+
+.search-box{
+    margin: 0 auto;
+    height: 44px;
+    width: 624px;
+    position: relative;
+    top: 30px;
+}
+
+.search-text{
+    width: 499px;
+    font-size:18px;
+    height: 22px;
+    padding: 10px 40px 10px 10px;
+}
+
+.search-text:hover{
+    border: 1px solid;
+}
+
+.search-text:focus{
+    border-color:orange;
+    outline: none;
+    border: 1px solid orange;
+}
+
+.click-search{
+    position: absolute;
+    right: 0px;
+    width: 74px;
+    height: 46px;
+    background: #fd6853 url(https://www.sogou.com/web/index/images/ico_spy.png) 29px -9px no-repeat;
+    border: none;
+    outline: none;
+}
+
+.click-search:hover{
+    outline: none;
+    background: #ff7967 url(https://www.sogou.com/web/index/images/ico_spy.png) 29px -9px no-repeat;
+}
+
+.click-search:active{
+    outline: none;
+    background: #ef6b59 url(https://www.sogou.com/web/index/images/ico_spy.png) 29px -9px no-repeat;
+}
+
+.yuyin{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 11px;
+    right: 87px;
+    background: url(https://www.sogou.com/web/img/voice/index/ico_fy.png) 5px 1px no-repeat;
+}
+
+.footer{
+    line-height: 22px;
+    text-align: center;
+    width: 640px;
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 53px;
+    left: 50%;
+    margin-left: -315px;
+}
+
+.erwm-box{
+    width: 166px;
+    height: 62px;
+    padding: 10px 0;
+    float: left;
+    top: 1px;
+    border-right: 1px solid #d3cbcb;
+}
+
+.ewm{
+    float: left;
+    margin-right: 10px;
+    width: 62px;
+    height: 62px;
+    background-image: url(https://www.sogou.com/web/index/images/erweima.png);
+    background-repeat: no-repeat;
+}
+
+.footer .erwm-box p{
+    padding-top: 10px;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 700;
+    color: rgba(0,0,0,.7);
+    float: left;
+    margin: 0px;
+}
+
+.footer .erwm-box .p2{
+    color: rgba(0,0,0,.5);
+    padding: 0px;
+    line-height: 20px;
+}
+
+.wz-info{
+    width: 450px;
+    padding-left: 18px;
+    text-align: left;
+    float: left;
+    position: relative;
+    top: -4px;
+}
+
+.footer .wz-info a{
+    text-decoration: none;
+    color: rgba(0,0,0,.7);
+}
+
+.footer .wz-info a:hover{
+    color:black;
+}
+
+.footer .wz-info .line{
+    width: 1px;
+    height: 12px;
+    margin: 5px 10px 0px 10px;
+    background: #e4e4e4;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.footer .wz-info .g{
+    color: rgba(0,0,0,.5);
+}
+</style>
