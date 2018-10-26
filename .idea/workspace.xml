@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02eab09d-9986-4453-b50e-d31505b578c9" name="Default Changelist" comment="" />
+    <list default="true" id="02eab09d-9986-4453-b50e-d31505b578c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/baidu.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,11 +16,12 @@
     <session id="814443741">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="6630" />
+          <entry key="html" value="9331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="6630" />
+          <entry key="HTML" value="9331" />
         </counts>
       </usages-collector>
     </session>
@@ -46,10 +51,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baidu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="83">
+              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -57,24 +62,7 @@
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#2714#2720#0" expanded="true" />
-                <element signature="e#2721#2727#0" expanded="true" />
-                <element signature="e#2815#2821#0" expanded="true" />
-                <element signature="e#2822#2828#0" expanded="true" />
-                <element signature="e#2912#2918#0" expanded="true" />
-                <element signature="e#2919#2925#0" expanded="true" />
-                <element signature="e#3055#3061#0" expanded="true" />
-                <element signature="e#3062#3068#0" expanded="true" />
-                <element signature="e#3160#3166#0" expanded="true" />
-                <element signature="e#3167#3173#0" expanded="true" />
-                <element signature="e#3331#3337#0" expanded="true" />
-                <element signature="e#3346#3352#0" expanded="true" />
-                <element signature="e#3361#3367#0" expanded="true" />
-                <element signature="e#3368#3374#0" expanded="true" />
-                <element signature="e#3377#3383#0" expanded="true" />
-                <element signature="e#3389#3395#0" expanded="true" />
-                <element signature="e#3404#3410#0" expanded="true" />
-                <element signature="e#3411#3417#0" expanded="true" />
+                <marker date="1540480945939" expanded="true" signature="8345:8481" ph="..." />
               </folding>
             </state>
           </provider>
@@ -88,6 +76,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,11 +94,13 @@
     <option name="width" value="1440" />
     <option name="height" value="765" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +112,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +155,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -181,10 +173,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baidu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="83">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -192,24 +184,7 @@
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2714#2720#0" expanded="true" />
-            <element signature="e#2721#2727#0" expanded="true" />
-            <element signature="e#2815#2821#0" expanded="true" />
-            <element signature="e#2822#2828#0" expanded="true" />
-            <element signature="e#2912#2918#0" expanded="true" />
-            <element signature="e#2919#2925#0" expanded="true" />
-            <element signature="e#3055#3061#0" expanded="true" />
-            <element signature="e#3062#3068#0" expanded="true" />
-            <element signature="e#3160#3166#0" expanded="true" />
-            <element signature="e#3167#3173#0" expanded="true" />
-            <element signature="e#3331#3337#0" expanded="true" />
-            <element signature="e#3346#3352#0" expanded="true" />
-            <element signature="e#3361#3367#0" expanded="true" />
-            <element signature="e#3368#3374#0" expanded="true" />
-            <element signature="e#3377#3383#0" expanded="true" />
-            <element signature="e#3389#3395#0" expanded="true" />
-            <element signature="e#3404#3410#0" expanded="true" />
-            <element signature="e#3411#3417#0" expanded="true" />
+            <marker date="1540480945939" expanded="true" signature="8345:8481" ph="..." />
           </folding>
         </state>
       </provider>

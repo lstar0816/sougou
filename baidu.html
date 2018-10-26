@@ -4,86 +4,6 @@
     <meta charset="UTF-8">
     <title>搜狗搜索引擎 - 上网从搜狗开始</title>
 </head>
-<body>
-    <div id="header">
-        <div id="head-left">
-            <a href="https://news.sogou.com/" class="head-left-style">新闻</a>
-            <span class="span-style">网页</span>
-            <a href="http://weixin.sogou.com/" class="head-left-style">微信</a>
-            <a href="http://zhihu.sogou.com/" class="head-left-style">知乎</a>
-            <a href="http://pic.sogou.com/" class="head-left-style">图片</a>
-            <a href="https://v.sogou.com/" class="head-left-style">视频</a>
-            <a href="http://mingyi.sogou.com/?fr=common_index_nav" class="head-left-style">明医</a>
-            <a href="http://english.sogou.com/?fr=pcweb_index_nav" class="head-left-style">英文</a>
-            <a href="https://wenwen.sogou.com/?ch=websearch" class="head-left-style">问问</a>
-            <a href="http://scholar.sogou.com/?fr=common_index_nav" class="head-left-style">学术</a>
-            <a href="http://pic.sogou.com/" class="head-left-style">更多</a>
-        </div>
-        <div id="head-right">
-            <div class="local-weather">
-                <span class="weather-city">广东 深圳</span>
-                <i>
-                    <img src="/html_learn_1/duoyun.jpg/"
-                    width="16" height="16" title="多云" alt="多云">
-                </i>
-                <span class="weather-city">23°</span>
-                <span class="weather-quality">优 42</span>
-            </div>
-            <span class="spilt-line"></span>
-            <div class="user-enter">
-                <a href="">显示卡片</a>
-                <a href=""> 换肤</a>
-                <a href="" class="set-dropdown">设置</a>
-                <p class="set-dropdown-content"> 事实上</p>
-                <span class="enter">登录</span>
-            </div>
-        </div>
-    </div>
-    <div class="content">
-        <div class="logo">
-            <img src="/html_learn_1/sougou.jpg/"
-            width="300" height="80">
-        </div>
-    </div>
-    <div class="search-box">
-        <input type="text" name="search-text" class="search-text">
-        <input type="submit" class="click-search" id="sub" value="" style="cursor:pointer">
-        <a href="" class="yuyin" title="语音搜索"></a>
-    </div>
-    <div class="footer">
-        <div class="erwm-box">
-            <span class="ewm"></span>
-            <p>搜狗搜索APP</p>
-            <p class="p2">搜你所想</p>
-        </div>
-        <div class="wz-info">
-            <a href="https://pinyin.sogou.com/" target="_blank">搜狗输入法</a>
-            <span class="line"></span>
-            <a href="https://ie.sogou.com/" target="_blank">浏览器</a>
-            <span class="line"></span>
-            <a href="https://123.sogou.com/" target="_blank">网页导航</a><br>
-            <a href="http://corp.sogou.com/" target="_blank">关于搜狗</a>
-            &nbsp;-&nbsp;
-            <a href="http://corp.sogou.com/" target="_blank" class="g">About Sogou</a>
-            &nbsp;-&nbsp;
-            <a href="http://fuwu.sogou.com/" target="_blank" class="g">企业推广</a>
-            &nbsp;-&nbsp;
-            <a href="http://www.sogou.com/docs/terms.htm?v=1" target="_blank" class="g">免责声明</a>
-            &nbsp;-&nbsp;
-            <a href="http://fankui.help.sogou.com/index.php/web/web/index/type/4" target="_blank" class="g">意见反馈及投诉</a>
-            &nbsp;-&nbsp;
-            <a href="http://corp.sogou.com/private.html" target="_blank" class="g">隐私政策</a><br>
-            <span class="g">©&nbsp;2004-2018&nbsp;Sogou.com&nbsp;/&nbsp;京网文&nbsp;(2016)&nbsp;6432-852号&nbsp;/&nbsp;(京)-经营性-2016-0019</span><bf>
-            <a href="http://www.miibeian.gov.cn/" target="_blank" class="g">京ICP证050897号</a>
-            <span class="g">/</span>
-            <a href="http://www.miibeian.gov.cn/" target="_blank" class="g">京ICP备11001839号-1</a>
-            <span class="g">/</span>
-            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000025" target="_blank" class="g">京公网安备11000002000025号</a>
-        </div>
-    </div>
-</body>
-</html>
-
 
 <style>
 #header{
@@ -102,9 +22,6 @@
     float: left;
 }
 
-#head-left a:hover{
-    color:orange;
-}
 
 #head-right{
     float: left;
@@ -122,6 +39,10 @@
     float: left;
 }
 
+.head-left-style:hover{
+    color: #fd6853;
+}
+
 .span-style{
     color: #ff5a34;
     font-size: 13px;
@@ -129,6 +50,37 @@
     display: block;
     margin-left:20px;
     float: left;
+}
+
+.more-down{
+    display: inline-block;
+    position: relative;
+}
+
+.more-down-class{
+    display: none;
+    border-width: 1px;
+    border-style: ridge;
+    position: absolute;
+    left: 2px;
+    top: 26px;
+    opacity: 1;
+}
+
+.more-down-class a{
+    display: block;
+    line-height: 29px;
+    width: 60px;
+    background: #fff;
+    font-size: 13px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.more-down-class a:hover{
+    background: #fd6853;
+    color: #fff;
 }
 
 .local-weather{
@@ -169,23 +121,72 @@
 .user-enter a{
     margin-right: 17px;
     text-decoration:none;
+    vertical-align: top;
+    color: rgba(0,0,0,.75);;
 }
 
-.user-enter a:hover{
+.user-enter .change_orange{
+    float: left;
+}
+
+.change-orange:hover{
     color:orange;
 }
 
-.set-dropdown{
-    position:relative;
-    display: inline-block;
+.user-enter .change-orange-set{
+    margin-right: 17px;
+    text-decoration: none;
+    vertical-align: top;
+    color: rgba(0,0,0,.75);
 }
 
-.set-dropdown-content{
-    display: block;
+.change-orange-set:hover{
+    color:orange;
+}
+
+.set-down{
+    display: inline-block;
+    position: relative;
+}
+
+.set-down-class{
+    display: none;
+    border-width: 1px;
+    border-style: ridge;
     position: absolute;
-    width: 24px;
-    height: 24px;
-    background: orange;
+    left: -21px;
+    top: 40px;
+    opacity: 0;
+}
+
+.set-down:hover .set-down-class{
+    display: block;
+    top: 30px;
+    opacity: 1;
+}
+
+.set-down-class a{
+    display: block;
+    text-align: left;
+    width: 59px;
+    margin: 0px;
+    height: 28px;
+    padding-left: 11px;
+    transition: none .25s;
+}
+
+.change-white:hover{
+    background: #fd6853;
+    color: #fff;
+}
+
+.ico-san{
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: -5px;
+    left: 29px;
+    background: url(https://www.sogou.com/web/index/images/ico_spy.png) 0 -295px no-repeat;
 }
 
 .enter{
@@ -195,6 +196,12 @@
     color: #fff;
     padding: 0 10px;
     margin-right: 20px;
+}
+
+.enter:hover{
+    box-shadow: 0px 0px 5px 0px #fd6853;
+    color: #fff;
+    background: #f8644f;
 }
 
 .content{
@@ -343,3 +350,121 @@
     color: rgba(0,0,0,.5);
 }
 </style>
+
+<script>
+    function show(span){
+        var div= span.getElementsByTagName("div")[0];
+        div.style.display = "block";
+    }
+
+    function hide(span){
+        var div= span.getElementsByTagName("div")[0];
+        div.style.display="none";
+    }
+
+</script>
+
+<body>
+    <div id="header">
+        <div id="head-left">
+            <a href="https://news.sogou.com/" class="head-left-style">新闻</a>
+            <span class="span-style">网页</span>
+            <a href="http://weixin.sogou.com/" class="head-left-style">微信</a>
+            <a href="http://zhihu.sogou.com/" class="head-left-style">知乎</a>
+            <a href="http://pic.sogou.com/" class="head-left-style">图片</a>
+            <a href="https://v.sogou.com/" class="head-left-style">视频</a>
+            <a href="http://mingyi.sogou.com/?fr=common_index_nav" class="head-left-style">明医</a>
+            <a href="http://english.sogou.com/?fr=pcweb_index_nav" class="head-left-style">英文</a>
+            <a href="https://wenwen.sogou.com/?ch=websearch" class="head-left-style">问问</a>
+            <a href="http://scholar.sogou.com/?fr=common_index_nav" class="head-left-style">学术</a>
+            <span class="more-down" onmouseover="show(this)"  onmouseout="hide(this)">
+                <a href="http://pic.sogou.com/" class="head-left-style">更多</a>
+                <div class="more-down-class">
+                    <span class="ico-san"></span>
+                    <a href="">地图</a>
+                    <a href="">购物</a>
+                    <a href="">百科</a>
+                    <a href="">知识</a>
+                    <a href="">应用</a>
+                    <a href="">翻译</a>
+                    <a href="">指数</a>
+                    <a href="">党建</a>
+                    <a href="">全部</a>
+                </div>
+            </span>
+        </div>
+        <div id="head-right">
+            <div class="local-weather">
+                <span class="weather-city">广东 深圳</span>
+                <i>
+                    <img src="/html_learn_1/duoyun.jpg/"
+                    width="16" height="16" title="多云" alt="多云">
+                </i>
+                <span class="weather-city">23°</span>
+                <span class="weather-quality">优 42</span>
+            </div>
+            <span class="spilt-line"></span>
+            <div class="user-enter">
+                <div class="change_orange">
+                <a href="" class="change-orange">显示卡片</a>
+                <a href="" class="change-orange"> 换肤</a>
+                <span class="set-down">
+                    <a href="" class="change-orange-set">设置</a>
+                    <div class="set-down-class">
+                        <span class="ico-san"></span>
+                        <a href="" class="change-white">搜索设置</a>
+                        <a href="" class="change-white">高级搜索</a>
+                        <a href="http://help.sogou.com/?w=01091500&v=1" class="change-white" >帮助</a>
+                    </div>
+                </span>
+                </div>
+                <span class="enter">登录</span>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="logo">
+            <img src="/html_learn_1/sougou.jpg/"
+            width="300" height="80">
+        </div>
+    </div>
+    <div class="search-box">
+        <input type="text" name="search-text" class="search-text">
+        <input type="submit" class="click-search" id="sub" value="" style="cursor:pointer">
+        <a href="" class="yuyin" title="语音搜索"></a>
+    </div>
+    <div class="footer">
+        <div class="erwm-box">
+            <span class="ewm"></span>
+            <p>搜狗搜索APP</p>
+            <p class="p2">搜你所想</p>
+        </div>
+        <div class="wz-info">
+            <a href="https://pinyin.sogou.com/" target="_blank">搜狗输入法</a>
+            <span class="line"></span>
+            <a href="https://ie.sogou.com/" target="_blank">浏览器</a>
+            <span class="line"></span>
+            <a href="https://123.sogou.com/" target="_blank">网页导航</a><br>
+            <a href="http://corp.sogou.com/" target="_blank">关于搜狗</a>
+            &nbsp;-&nbsp;
+            <a href="http://corp.sogou.com/" target="_blank" class="g">About Sogou</a>
+            &nbsp;-&nbsp;
+            <a href="http://fuwu.sogou.com/" target="_blank" class="g">企业推广</a>
+            &nbsp;-&nbsp;
+            <a href="http://www.sogou.com/docs/terms.htm?v=1" target="_blank" class="g">免责声明</a>
+            &nbsp;-&nbsp;
+            <a href="http://fankui.help.sogou.com/index.php/web/web/index/type/4" target="_blank" class="g">意见反馈及投诉</a>
+            &nbsp;-&nbsp;
+            <a href="http://corp.sogou.com/private.html" target="_blank" class="g">隐私政策</a><br>
+            <span class="g">©&nbsp;2004-2018&nbsp;Sogou.com&nbsp;/&nbsp;京网文&nbsp;(2016)&nbsp;6432-852号&nbsp;/&nbsp;(京)-经营性-2016-0019</span><bf>
+            <a href="http://www.miibeian.gov.cn/" target="_blank" class="g">京ICP证050897号</a>
+            <span class="g">/</span>
+            <a href="http://www.miibeian.gov.cn/" target="_blank" class="g">京ICP备11001839号-1</a>
+            <span class="g">/</span>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000025" target="_blank" class="g">京公网安备11000002000025号</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
